@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="viewmodel"
+            type="com.samsung.android.poc.remotecontroller.presentation.RCViewModel"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/_50sdp">
+
+            <EditText
+                android:id="@+id/edtDevice"
+                android:hint="Enter the TV's name"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color"
+                android:backgroundTint="@color/text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:background="@drawable/bg_button_connect"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/connect" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:visibility="@{safeUnbox(viewmodel.isLoading) == true ? View.VISIBLE : View.GONE}">
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="@android:style/Widget.DeviceDefault.ProgressBar"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp" />
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>

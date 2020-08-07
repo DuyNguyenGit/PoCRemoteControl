@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="350dp"
+    android:minHeight="380dp"
+    android:updatePeriodMillis="1800000"
+    android:previewImage="@drawable/rc_icon"
+    android:initialLayout="@layout/remote_control_widget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialKeyguardLayout="@layout/remote_control_widget">
+</appwidget-provider>

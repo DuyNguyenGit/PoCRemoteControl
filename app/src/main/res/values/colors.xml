@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="gradient_start">#146CF6</color>
+    <color name="gradient_end">#2196f3</color>
+
+
+    <color name="COLOR_0074D4">#0074d4</color>
+    <color name="FS_19_SUB_TITLE">#FF252525</color>
+    <color name="FS_19_REMOTE_BUTTON_BG">#f2f2f2</color>
+    <color name="text_color">#03AE3C</color>
+</resources>
