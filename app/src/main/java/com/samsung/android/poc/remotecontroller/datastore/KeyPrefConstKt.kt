@@ -7,4 +7,5 @@ const val KEY_DEVICE_INFO = "tv_device_info"
 const val KEY_SERVICE = "rc_service"
 const val KEY_D2D_STATUS = "d2d_status"
 const val KEY_NUMPAD_SWITCH_STATUS = "numpad_switch_status"
+const val KEY_OPENED_PERMISSION_SETTING = "opened_permission_settings"
 

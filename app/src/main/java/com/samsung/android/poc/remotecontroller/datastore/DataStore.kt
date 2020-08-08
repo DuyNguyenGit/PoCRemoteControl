@@ -58,4 +58,12 @@ object DataStore {
     fun getSwitchButtonStatus(context: Context): Boolean {
         return getBoolean(context, KEY_NUMPAD_SWITCH_STATUS)
     }
+
+    fun saveOpenedPermissionSetting(context: Context, isOpenedPermissionSetting: Boolean) {
+        saveBoolean(context, isOpenedPermissionSetting, KEY_OPENED_PERMISSION_SETTING)
+    }
+
+    fun isOpenedPermissionAlready(context: Context) : Boolean{
+        return getBoolean(context, KEY_OPENED_PERMISSION_SETTING)
+    }
 }

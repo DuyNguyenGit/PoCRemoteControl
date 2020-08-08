@@ -3,4 +3,9 @@
     <string name="text_rc_vol_up">VOL UP</string>
     <string name="connect">Connect</string>
     <string name="empty_name">The TV\'s name is empty. Please enter the TV\'s name</string>
+    <string name="overlay_permission_not_allowed">Permission not allowed. Cannot connect to TV.</string>
+    <string name="title">Request Permission</string>
+    <string name="message">For drawing a floating window over top of other apps, please enable this permission in Setting.</string>
+    <string name="ok">Go to Setting</string>
+    <string name="cancel">Cancel</string>
 </resources>

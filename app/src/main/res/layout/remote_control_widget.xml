@@ -9,7 +9,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/shape"
         android:paddingLeft="@dimen/_8sdp"
         android:paddingRight="@dimen/_8sdp">
 
@@ -299,7 +298,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/mobile_remote_btn_num_bg"
         android:visibility="gone"
-        tools:visibility="visible">
+        tools:visibility="gone">
 
         <GridLayout
             android:layout_width="match_parent"

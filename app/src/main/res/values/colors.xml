@@ -11,4 +11,5 @@
     <color name="FS_19_SUB_TITLE">#FF252525</color>
     <color name="FS_19_REMOTE_BUTTON_BG">#f2f2f2</color>
     <color name="text_color">#03AE3C</color>
+    <color name="rc_bg_color">#ED252525</color>
 </resources>
